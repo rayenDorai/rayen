@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("password").value;
   
     if (password === "r1x22r36") {
-      window.location.href = "file:///C:/Users/rayen/Desktop/test%20app/1/index.html"; // Redirect to success page or do something on successful login
+      window.location.href = "https://www.youtube.com/"; // Redirect to success page or do something on successful login
     } else {
       document.getElementById("message").innerText = "Incorrect password. Please try again.";
     }
